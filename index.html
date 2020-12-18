@@ -12,6 +12,7 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="./style.css" />
+    <script src="./app.js"></script>
 
     <title>Article preview component</title>
   </head>
@@ -30,14 +31,21 @@
             you make any room feel complete.
           </p>
           <div class="text-author">
-            <div class="author-photo"></div>
+            <img
+              src="./images/avatar-michelle.jpg"
+              class="avatar-photo"
+              alt="avatar-michelle"
+            />
             <div class="author-name">
               <h2>Michelle Appleton</h2>
               <h3>28 Jun 2020</h3>
             </div>
-            <div class="share-bar">Share</div>
+            <div id="share-button" class="share-button">
+              <img src="./images/icon-share.svg" alt="share" />
+            </div>
           </div>
         </div>
+        <div class="share-card">Share</div>
       </div>
     </div>
   </body>
